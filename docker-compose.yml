@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  flask-api:
+  #stuff goes here
+
+  nginx:
+  #some stuff here too..
+
+

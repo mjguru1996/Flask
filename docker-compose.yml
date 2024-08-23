@@ -10,8 +10,8 @@ services:
          - "80:80"
 
    back-end:
-      image: guruprasadkannan/flask-api:1.0
+      image: api-flask
       volumes:
-         - ./back-end/.env:/guruprasadkannan/flask-api:1.0/.env
+         - ./back-end/.env:/api-flask/.env
       expose:
          - "5000"
